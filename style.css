@@ -34,4 +34,11 @@ body.dark{
     cursor: pointer;
     border-radius: .3em;
     outline:none;
+    /* slower transition: ; */ 
+    transition: var(--transition-delay);
+    transform:scale(1)
+}
+.theme-button:hover,
+.theme-button:focus{
+    transform:scale(1.1)
 }
