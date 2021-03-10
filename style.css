@@ -17,5 +17,13 @@ body{
 body.dark{
     --accent-color:#D0D066;
     --bg-color:#333;
-    --text-color:white;
+    --text-color:white; 
+}
+.title{
+    margin: 0;
+    margin-bottom: 5rem;
+}
+.theme-button{
+    background-color: var(--accent-color);
+    color:var(--text-color);
 }
