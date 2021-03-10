@@ -26,4 +26,12 @@ body.dark{
 .theme-button{
     background-color: var(--accent-color);
     color:var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5em 1.5em;
+    border:none;
+    cursor: pointer;
+    border-radius: .3em;
+    outline:none;
 }
