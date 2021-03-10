@@ -21,7 +21,7 @@ body.dark{
 }
 .title{
     margin: 0;
-    margin-bottom: 5rem;
+    margin-bottom: .5rem;
 }
 .theme-button{
     background-color: var(--accent-color);
