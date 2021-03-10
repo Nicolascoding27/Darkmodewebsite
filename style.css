@@ -1,12 +1,21 @@
 body{
+    --accent-color:orangered;
+    --bg-color:white;
+    --text-color:black;
+    --button-text-color:(var(--bakground-color));
+    --transition-delay:1s;
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     justify-content: center;
     justify-content: center;
     align-items:center;
     height: 100vh;
     margin:0;
+    background-color: var(--bg-color);
+    color:var(--text-color);
 }
 body.dark{
-
+    --accent-color:#D0D066;
+    --bg-color:#333;
+    --text-color:white;
 }
