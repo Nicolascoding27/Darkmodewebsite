@@ -13,6 +13,7 @@ body{
     margin:0;
     background-color: var(--bg-color);
     color:var(--text-color);
+    transition: var(--transition-delay);
 }
 body.dark{
     --accent-color:#D0D066;
