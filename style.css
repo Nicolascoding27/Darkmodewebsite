@@ -62,6 +62,10 @@ body.dark{
 /* put the icons in the appropiate position  */
 .sun,.moon{
     position: absolute;
+    transition: opacity var(--transition-delay);
+    width:30px;
+    height: 30px;
+    fill: var(--accent-color);
 }
 .sun{
     top: 5%;
