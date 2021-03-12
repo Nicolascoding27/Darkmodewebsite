@@ -39,6 +39,15 @@ body.dark{
     transition: var(--transition-delay);
     transform:scale(1)
 }
+.theme-button .icon{
+    margin-right: .5em;
+}
+.sun-moon-container{
+    position: absolute;
+    top: 0;
+    height: 200vmin;
+    pointer-events: none;
+}
 .theme-button:hover,
 .theme-button:focus{
     transform:scale(1.1)
