@@ -52,6 +52,8 @@ body.dark{
     height: 200vmin;
     pointer-events: none;
     transform:rotate(var(--rotation));
+    display: flex;
+    justify-content: center;
 }
 .theme-button:hover,
 .theme-button:focus{
@@ -63,7 +65,15 @@ body.dark{
 }
 .sun{
     top: 5%;
+    opacity: 1;
 }
 .moon{
     bottom:5%;
+    opacity:0;
+}
+.dark .moon{
+    opacity: 1;
+}
+.dark .sun{
+    opacity:0;
 }
