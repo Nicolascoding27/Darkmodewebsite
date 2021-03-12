@@ -54,6 +54,7 @@ body.dark{
     transform:rotate(var(--rotation));
     display: flex;
     justify-content: center;
+    transition: transform var(--transition-delay);
 }
 .theme-button:hover,
 .theme-button:focus{
@@ -62,11 +63,15 @@ body.dark{
 /* put the icons in the appropiate position  */
 .sun,.moon{
     position: absolute;
-    transition: opacity var(--transition-delay);
+    transition: opacity,fill, var(--transition-delay);
     width:30px;
     height: 30px;
     fill: var(--accent-color);
 }
+.dark .sun-moon-container{
+    --rotation:180deg;
+}
+.
 .sun{
     top: 5%;
     opacity: 1;
