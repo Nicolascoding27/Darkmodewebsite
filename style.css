@@ -14,6 +14,9 @@ body{
     background-color: var(--bg-color);
     color:var(--text-color);
     transition: var(--transition-delay);
+    /* fixing the scrolling problem
+     */
+    overflow: hidden;
 }
 body.dark{
     --accent-color:#D0D066;
@@ -43,12 +46,24 @@ body.dark{
     margin-right: .5em;
 }
 .sun-moon-container{
+    --rotation:0;
     position: absolute;
     top: 0;
     height: 200vmin;
     pointer-events: none;
+    transform:rotate(var(--rotation));
 }
 .theme-button:hover,
 .theme-button:focus{
     transform:scale(1.1)
+}
+/* put the icons in the appropiate position  */
+.sun,.moon{
+    position: absolute;
+}
+.sun{
+    top: 5%;
+}
+.moon{
+    bottom:5%;
 }
